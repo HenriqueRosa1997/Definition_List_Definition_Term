@@ -1,0 +1,11 @@
+li ul {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+li:hover {
+  background-color: gray;
+}
+li:hover ul {
+  height: 50px;
+}
